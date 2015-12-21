@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(255, 255, 200);
+}
+
+.anim {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    margin: 20px;
+    border-bottom: 3px solid green;
+    box-shadow: 5px 5px 5px rgb(0, 25, 0);
+}
+
+.anim p {
+    text-align: center;
+}
+
+.anim canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 4px solid green;
+    box-shadow: 0 0 6px rgb(0, 25, 0);
+}
+
+#spiral {
+    border-radius: 100px;
+}

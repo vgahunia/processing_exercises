@@ -10,7 +10,9 @@ void setup() {
 }
 
 void draw() {
-  background(0);
+  background(0, 90, 0);
+  fill(0, 75, 0);
+  stroke(255, 255, 255);
   float y1 = offset + sin(angle) * scalar;
   float y2 = offset + sin(angle + 0.4) * scalar;
   float y3 = offset + sin(angle + 0.8) * scalar;
